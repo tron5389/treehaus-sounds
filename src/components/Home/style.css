@@ -1,0 +1,21 @@
+
+.flyer-container{
+    width: 100vw;
+    height: 100vh;
+    background-color:  #282c34;
+}
+
+.flyer-container .object-fit-contain{
+    width: 50vw;
+    height: 99vh;
+    object-position: center;
+}
+
+@media (max-width: 600px) {
+    .flyer-container .object-fit-contain{
+        width: 100vw;
+        height: 100vh;
+        object-position: center;
+    }
+    
+}
