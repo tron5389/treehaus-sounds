@@ -1,0 +1,49 @@
+.flyer-container{
+    width: 100vw;
+    height: 100vh;
+    background-color:  #282c34;
+}
+
+.flyer-container .lineup-grid-container{
+    display: flex;
+    justify-content: center;
+}
+
+.lineup-grid-container p{
+    font-size: 60px;
+    color: rgb(221, 90, 14);
+    font-family: "Blackadder ITC";
+}
+.lineup-time{
+    height: 10vh;
+    width: 25pc;
+    
+}
+.lineup-name{
+    height: 10vh;
+    width: 45pc;
+
+}
+
+@media (max-width: 600px) {
+    .flyer-container .lineup-grid-container{
+        display: flexbox;
+    }
+    .lineup-grid-container p{
+        font-size: 25px;
+        color: rgb(221, 90, 14);
+        font-family: "Blackadder ITC";
+    }
+    .lineup-time{
+        height: 10vh;
+        width: 25vw;
+        
+    }
+    .lineup-name{
+        height: 10vh;
+        width: 45vw;
+    
+    }
+
+    
+}
